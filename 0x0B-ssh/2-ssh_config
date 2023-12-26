@@ -1,8 +1,7 @@
-#!/usr/bin/env bash
 #Configuration of my server
 
 Host *
-    PasswordAuthentication no
+    PasswordAuthentication yes
     IdentityFile ~/.ssh/school
     SendEnv LANG LC_*
     HashKnownHosts yes
